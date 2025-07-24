@@ -1,6 +1,8 @@
 
 ## 🔧 Key Dependencies
 
+Python 3.10.16
+
 Below are the key package versions used in this project:
 
 - datasets==3.5.0
