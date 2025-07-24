@@ -1,0 +1,237 @@
+[
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The presence of P. celer has already been described previously and this bacterium contributes significantly to the aromatic properties of cheese, as it influences total volatile aroma production ( Irlinger et al., 2012). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: cheese Use: aromatic properties @@ total volatile aroma production",
+    "target_text": "<extra_id_0> P. celer"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The presence of P. celer has already been described previously and this bacterium contributes significantly to the aromatic properties of cheese, as it influences total volatile aroma production ( Irlinger et al., 2012). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: cheese Use: aromatic properties @@ <extra_id_1>",
+    "target_text": "<extra_id_0> P. celer <extra_id_1> total volatile aroma production"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The presence of P. celer has already been described previously and this bacterium contributes significantly to the aromatic properties of cheese, as it influences total volatile aroma production ( Irlinger et al., 2012). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: <extra_id_2> Use: aromatic properties @@ <extra_id_1>",
+    "target_text": "<extra_id_0> P. celer <extra_id_1> total volatile aroma production <extra_id_2> cheese"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The presence of P. celer has already been described previously and this bacterium contributes significantly to the aromatic properties of cheese, as it influences total volatile aroma production ( Irlinger et al., 2012). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: <extra_id_2> Use: <extra_id_3> @@ <extra_id_1>",
+    "target_text": "<extra_id_0> P. celer <extra_id_1> total volatile aroma production <extra_id_2> cheese <extra_id_3> aromatic properties"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The presence of P. celer has already been described previously and this bacterium contributes significantly to the aromatic properties of cheese, as it influences total volatile aroma production ( Irlinger et al., 2012). Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> P. celer <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> cheese <extra_id_4> aromatic properties @@ total volatile aroma production"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: Staph. equorum @@ <extra_id_0> @@ L. lactis ssp. cremoris Phenotype: no entity Molecule: no entity Habitat: pasteurized milk @@ heart of the pasteurized milk cheeses @@ pasteurized milk cheeses Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp."
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: Staph. equorum @@ <extra_id_0> @@ L. lactis ssp. cremoris Phenotype: no entity Molecule: no entity Habitat: pasteurized milk @@ heart of the pasteurized milk cheeses @@ <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp. <extra_id_1> pasteurized milk cheeses"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: Staph. equorum @@ <extra_id_0> @@ L. lactis ssp. cremoris Phenotype: no entity Molecule: no entity Habitat: pasteurized milk @@ <extra_id_2> @@ <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp. <extra_id_1> pasteurized milk cheeses <extra_id_2> heart of the pasteurized milk cheeses"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: Staph. equorum @@ <extra_id_0> @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: pasteurized milk @@ <extra_id_2> @@ <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp. <extra_id_1> pasteurized milk cheeses <extra_id_2> heart of the pasteurized milk cheeses <extra_id_3> L. lactis ssp. cremoris"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: Staph. equorum @@ <extra_id_0> @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: <extra_id_4> @@ <extra_id_2> @@ <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp. <extra_id_1> pasteurized milk cheeses <extra_id_2> heart of the pasteurized milk cheeses <extra_id_3> L. lactis ssp. cremoris <extra_id_4> pasteurized milk"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: <extra_id_5> @@ <extra_id_0> @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: <extra_id_4> @@ <extra_id_2> @@ <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Psychrobacter sp. <extra_id_1> pasteurized milk cheeses <extra_id_2> heart of the pasteurized milk cheeses <extra_id_3> L. lactis ssp. cremoris <extra_id_4> pasteurized milk <extra_id_5> Staph. equorum"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The heart of the pasteurized milk cheeses was mainly composed of L. lactis ssp. cremoris (76.87%), Psychrobacter sp. (11.35%), and Staph. equorum (6.57%). Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> Staph. equorum @@ Psychrobacter sp. @@ L. lactis ssp. cremoris <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> pasteurized milk @@ heart of the pasteurized milk cheeses @@ pasteurized milk cheeses <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: 16S rRNA gene libraries showed OTU 5 (A. kashmirensis) and 18S rRNA gene libraries showed OTU 4 (Nectria mariannaeae) to have increased significantly in facility C (10.4 and 6.5 fold change) ( Fig. 4, Supplementary Table S5 and S6). Recognition Results: Taxon: <extra_id_0> @@ A. kashmirensis Phenotype: no entity Molecule: no entity Habitat: no entity Use: no entity",
+    "target_text": "<extra_id_0> Nectria mariannaeae"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: 16S rRNA gene libraries showed OTU 5 (A. kashmirensis) and 18S rRNA gene libraries showed OTU 4 (Nectria mariannaeae) to have increased significantly in facility C (10.4 and 6.5 fold change) ( Fig. 4, Supplementary Table S5 and S6). Recognition Results: Taxon: <extra_id_0> @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: no entity Use: no entity",
+    "target_text": "<extra_id_0> Nectria mariannaeae <extra_id_1> A. kashmirensis"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: 16S rRNA gene libraries showed OTU 5 (A. kashmirensis) and 18S rRNA gene libraries showed OTU 4 (Nectria mariannaeae) to have increased significantly in facility C (10.4 and 6.5 fold change) ( Fig. 4, Supplementary Table S5 and S6). Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> Nectria mariannaeae @@ A. kashmirensis <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> no entity <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: Nectria mariannaeae @@ Pyxidiophora arvernensis @@ Debaryomyces hansenii Phenotype: no entity Molecule: no entity Habitat: short-ripened cheeses @@ <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Short-ripened cheeses"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: Nectria mariannaeae @@ Pyxidiophora arvernensis @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: short-ripened cheeses @@ <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Short-ripened cheeses <extra_id_1> Debaryomyces hansenii"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: <extra_id_2> @@ Pyxidiophora arvernensis @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: short-ripened cheeses @@ <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Short-ripened cheeses <extra_id_1> Debaryomyces hansenii <extra_id_2> Nectria mariannaeae"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: <extra_id_2> @@ Pyxidiophora arvernensis @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: <extra_id_3> @@ <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Short-ripened cheeses <extra_id_1> Debaryomyces hansenii <extra_id_2> Nectria mariannaeae <extra_id_3> short-ripened cheeses"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: <extra_id_2> @@ <extra_id_4> @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: <extra_id_3> @@ <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Short-ripened cheeses <extra_id_1> Debaryomyces hansenii <extra_id_2> Nectria mariannaeae <extra_id_3> short-ripened cheeses <extra_id_4> Pyxidiophora arvernensis"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Short-ripened cheeses harbored a significantly increased ratio of OTU 2 and OTU 3 (Pyxidiophora arvernensis, Debaryomyces hansenii; 1.1 and 3.4 fold changes), while OTU 4 (Nectria mariannaeae) could only be detected in short-ripened cheeses. Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> Nectria mariannaeae @@ Pyxidiophora arvernensis @@ Debaryomyces hansenii <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> short-ripened cheeses @@ Short-ripened cheeses <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Further work on H. alvei strain B16 showed that E. coli O26:H11, inoculated at 2 log CFU/ml, was inhibited by H. alvei B16 inoculated at 6 log CFU/ml and not at 4.5 log CFU/ml. Recognition Results: Taxon: <extra_id_0> @@ H. alvei strain B16 @@ E. coli O26:H11 Phenotype: no entity Molecule: no entity Habitat: no entity Use: no entity",
+    "target_text": "<extra_id_0> H. alvei B16"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Further work on H. alvei strain B16 showed that E. coli O26:H11, inoculated at 2 log CFU/ml, was inhibited by H. alvei B16 inoculated at 6 log CFU/ml and not at 4.5 log CFU/ml. Recognition Results: Taxon: <extra_id_0> @@ <extra_id_1> @@ E. coli O26:H11 Phenotype: no entity Molecule: no entity Habitat: no entity Use: no entity",
+    "target_text": "<extra_id_0> H. alvei B16 <extra_id_1> H. alvei strain B16"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Further work on H. alvei strain B16 showed that E. coli O26:H11, inoculated at 2 log CFU/ml, was inhibited by H. alvei B16 inoculated at 6 log CFU/ml and not at 4.5 log CFU/ml. Recognition Results: Taxon: <extra_id_0> @@ <extra_id_1> @@ <extra_id_2> Phenotype: no entity Molecule: no entity Habitat: no entity Use: no entity",
+    "target_text": "<extra_id_0> H. alvei B16 <extra_id_1> H. alvei strain B16 <extra_id_2> E. coli O26:H11"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Further work on H. alvei strain B16 showed that E. coli O26:H11, inoculated at 2 log CFU/ml, was inhibited by H. alvei B16 inoculated at 6 log CFU/ml and not at 4.5 log CFU/ml. Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> H. alvei B16 @@ H. alvei strain B16 @@ E. coli O26:H11 <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> no entity <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: In addition, weaker (r > 0.6) negative correlations of OTU 2 with OTU 16 (Pusillimonas) and OTU 20 (Leucobacter) were found in cellars C2 and C1. Recognition Results: Taxon: Pusillimonas @@ <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: cellars Use: no entity",
+    "target_text": "<extra_id_0> Leucobacter"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: In addition, weaker (r > 0.6) negative correlations of OTU 2 with OTU 16 (Pusillimonas) and OTU 20 (Leucobacter) were found in cellars C2 and C1. Recognition Results: Taxon: Pusillimonas @@ <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Leucobacter <extra_id_1> cellars"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: In addition, weaker (r > 0.6) negative correlations of OTU 2 with OTU 16 (Pusillimonas) and OTU 20 (Leucobacter) were found in cellars C2 and C1. Recognition Results: Taxon: <extra_id_2> @@ <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Leucobacter <extra_id_1> cellars <extra_id_2> Pusillimonas"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: In addition, weaker (r > 0.6) negative correlations of OTU 2 with OTU 16 (Pusillimonas) and OTU 20 (Leucobacter) were found in cellars C2 and C1. Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> Pusillimonas @@ Leucobacter <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> cellars <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Another bacterium identified in our study of the genus Halomonas has also been reported in smear-ripened cheeses ( Mounier et al., 2005). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: smear-ripened cheeses Use: no entity",
+    "target_text": "<extra_id_0> Halomonas"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Another bacterium identified in our study of the genus Halomonas has also been reported in smear-ripened cheeses ( Mounier et al., 2005). Recognition Results: Taxon: <extra_id_0> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> Use: no entity",
+    "target_text": "<extra_id_0> Halomonas <extra_id_1> smear-ripened cheeses"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Another bacterium identified in our study of the genus Halomonas has also been reported in smear-ripened cheeses ( Mounier et al., 2005). Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> Halomonas <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> smear-ripened cheeses <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Therefore, the increase in the cellular concentration of C. maltaromaticum LMA 28 improved the inhibition of both Psychrobacter sp. LMA 1 and L. monocytogenes CIP 82110 in milk. Recognition Results: Taxon: C. maltaromaticum LMA 28 @@ <extra_id_0> @@ Psychrobacter sp. LMA 1 Phenotype: no entity Molecule: no entity Habitat: milk Use: no entity",
+    "target_text": "<extra_id_0> L. monocytogenes CIP 82110"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Therefore, the increase in the cellular concentration of C. maltaromaticum LMA 28 improved the inhibition of both Psychrobacter sp. LMA 1 and L. monocytogenes CIP 82110 in milk. Recognition Results: Taxon: C. maltaromaticum LMA 28 @@ <extra_id_0> @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: milk Use: no entity",
+    "target_text": "<extra_id_0> L. monocytogenes CIP 82110 <extra_id_1> Psychrobacter sp. LMA 1"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Therefore, the increase in the cellular concentration of C. maltaromaticum LMA 28 improved the inhibition of both Psychrobacter sp. LMA 1 and L. monocytogenes CIP 82110 in milk. Recognition Results: Taxon: <extra_id_2> @@ <extra_id_0> @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: milk Use: no entity",
+    "target_text": "<extra_id_0> L. monocytogenes CIP 82110 <extra_id_1> Psychrobacter sp. LMA 1 <extra_id_2> C. maltaromaticum LMA 28"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Therefore, the increase in the cellular concentration of C. maltaromaticum LMA 28 improved the inhibition of both Psychrobacter sp. LMA 1 and L. monocytogenes CIP 82110 in milk. Recognition Results: Taxon: <extra_id_2> @@ <extra_id_0> @@ <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: <extra_id_3> Use: no entity",
+    "target_text": "<extra_id_0> L. monocytogenes CIP 82110 <extra_id_1> Psychrobacter sp. LMA 1 <extra_id_2> C. maltaromaticum LMA 28 <extra_id_3> milk"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: Therefore, the increase in the cellular concentration of C. maltaromaticum LMA 28 improved the inhibition of both Psychrobacter sp. LMA 1 and L. monocytogenes CIP 82110 in milk. Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> C. maltaromaticum LMA 28 @@ L. monocytogenes CIP 82110 @@ Psychrobacter sp. LMA 1 <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> milk <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: On the contrary, the BB3 strain isolated from Formai de Mut cheese was very slow: it took 12 h to reach Ehmin. Recognition Results: Taxon: BB3 Phenotype: no entity Molecule: no entity Habitat: <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Formai de Mut cheese"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: On the contrary, the BB3 strain isolated from Formai de Mut cheese was very slow: it took 12 h to reach Ehmin. Recognition Results: Taxon: <extra_id_1> Phenotype: no entity Molecule: no entity Habitat: <extra_id_0> Use: no entity",
+    "target_text": "<extra_id_0> Formai de Mut cheese <extra_id_1> BB3"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: On the contrary, the BB3 strain isolated from Formai de Mut cheese was very slow: it took 12 h to reach Ehmin. Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> BB3 <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> Formai de Mut cheese <extra_id_4> no entity"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ Com1 @@ Re117 Phenotype: no entity Molecule: no entity Habitat: St. Nectaire @@ Reblochon @@ Munster Use: no entity",
+    "target_text": "<extra_id_0> FH1"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ Com1 @@ Re117 Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> @@ Reblochon @@ Munster Use: no entity",
+    "target_text": "<extra_id_0> FH1 <extra_id_1> St. Nectaire"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ Com1 @@ Re117 Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> @@ Reblochon @@ <extra_id_2> Use: no entity",
+    "target_text": "<extra_id_0> FH1 <extra_id_1> St. Nectaire <extra_id_2> Munster"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ Com1 @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> @@ Reblochon @@ <extra_id_2> Use: no entity",
+    "target_text": "<extra_id_0> FH1 <extra_id_1> St. Nectaire <extra_id_2> Munster <extra_id_3> Re117"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ <extra_id_4> @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> @@ Reblochon @@ <extra_id_2> Use: no entity",
+    "target_text": "<extra_id_0> FH1 <extra_id_1> St. Nectaire <extra_id_2> Munster <extra_id_3> Re117 <extra_id_4> Com1"
+  },
+  {
+    "step": 0,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> @@ <extra_id_4> @@ <extra_id_3> Phenotype: no entity Molecule: no entity Habitat: <extra_id_1> @@ <extra_id_5> @@ <extra_id_2> Use: no entity",
+    "target_text": "<extra_id_0> FH1 <extra_id_1> St. Nectaire <extra_id_2> Munster <extra_id_3> Re117 <extra_id_4> Com1 <extra_id_5> Reblochon"
+  },
+  {
+    "step": 1,
+    "input_text": "Extract taxon, use, phenotype, molecule and habitat entities from the given context. Context: The microorganisms were originally isolated from Munster except for Re117 (Reblochon), Com1 (unknown) and FH1 (St. Nectaire). Recognition Results: Taxon: <extra_id_0> Phenotype: <extra_id_1> Molecule: <extra_id_2> Habitat: <extra_id_3> Use: <extra_id_4>",
+    "target_text": "<extra_id_0> FH1 @@ Com1 @@ Re117 <extra_id_1> no entity <extra_id_2> no entity <extra_id_3> St. Nectaire @@ Reblochon @@ Munster <extra_id_4> no entity"
+  }
+]
